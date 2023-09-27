@@ -1,0 +1,74 @@
+/* #DBE5FF 
+ #678FFE 
+ #0247FE
+ #012998
+ #091534 
+ triadic*/
+
+ #F7F7D4
+#FEFE33
+#0247FE
+#FE2712
+#1E1E1F
+
+.city {
+  background-color: rgb(135, 134, 133);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.h1{color:#f7f7f7  ;
+font-family:Verdana, Geneva, Tahoma, sans-serif; }
+ h2, h3 {
+color:black;
+font-famiy:verdana ;
+font-weight: bold;
+
+}
+
+a:link { color:#DBE5FF ; } /* unvisited link */
+a:visited { color:#678FFE ; } /* visited link */
+a:hover { color:#0247FE; } /* mouse over link */
+a:active { color:#091534 ; }  /* selected link */
+
+
+
+p,figcaption {
+color: black;
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: normal;  
+}
+
+header{ 
+        background-color:#0000FF;
+        padding: 5px; }
+
+nav {
+
+border:black;}
+
+
+
+main {color:#0247FE;}
+
+section {
+  background-color: bisque;
+  padding: .5em;
+}
+
+
+
+footer {
+  
+  background-color: crimson;
+  color: bisque;
+  
+}
+
+
+img {border: thin black solid;
+padding: 15px;
+margin:15px;}
+
+
