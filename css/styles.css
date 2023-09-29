@@ -1,74 +1,67 @@
-/* #DBE5FF 
- #678FFE 
- #0247FE
- #012998
- #091534 
- triadic*/
+/* #E5E1E1
+   #1B33AC
+   #9DA0AF
+   #607AFB
+   #0929CE
+monochromatic */
 
- #F7F7D4
-#FEFE33
-#0247FE
-#FE2712
-#1E1E1F
-
-.city {
-  background-color: rgb(135, 134, 133);
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
+header{ 
+background-color: #1B33AC;
+border:black;
+margin: auto;
+padding: 30px;
 }
 
-.h1{color:#f7f7f7  ;
-font-family:Verdana, Geneva, Tahoma, sans-serif; }
- h2, h3 {
+nav{ color:#091534;}
+
+h1.heading{color:#E5E1E1;
+font-family: helvetica;
+font-weight: bolder;
+text-transform: uppercase;
+border:#091534}
+ 
+h2, h3 {
 color:black;
-font-famiy:verdana ;
-font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+font-weight: bold;}
+
+dl.answer{color:black;
+  font-family:  sans-serif,verdana; 
+  font-weight: normal; 
 
 }
 
-a:link { color:#DBE5FF ; } /* unvisited link */
-a:visited { color:#678FFE ; } /* visited link */
-a:hover { color:#0247FE; } /* mouse over link */
-a:active { color:#091534 ; }  /* selected link */
 
+a:link { color:#091534 ; } /* unvisited link */
+a:visited { color:#607AFB ; } /* visited link */
+a:hover { color:#091534; } /* mouse over link */
+a:active { color:rgb(95, 93, 93) ; }  /* selected link */
 
+footer a:link { color:#091534 ; } /* unvisited link */
+footer a:visited { color:#607AFB ; } /* visited link */
+footer a:hover { color:#091534; } /* mouse over link */
+footer a:active { color:rgb(95, 93, 93) ; }  /* selected link */
 
 p,figcaption {
-color: black;
-font-family: Arial, Helvetica, sans-serif; 
+color:black;
+font-family:  sans-serif,verdana; 
 font-weight: normal;  
 }
 
-header{ 
-        background-color:#0000FF;
-        padding: 5px; }
+body{
+background-color: #E5E1E1;}
 
-nav {
-
-border:black;}
-
-
-
-main {color:#0247FE;}
+main{background-color: #E5E1E1;}
 
 section {
-  background-color: bisque;
-  padding: .5em;
+background-color:#E5E1E1 ;
 }
-
-
 
 footer {
-  
-  background-color: crimson;
-  color: bisque;
-  
+background-color:  #9DA0AF;
+color: bisque;
 }
 
-
-img {border: thin black solid;
-padding: 15px;
-margin:15px;}
+img {border: thin rgb(245, 244, 244) solid;}
 
 
