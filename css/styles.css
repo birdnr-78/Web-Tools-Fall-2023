@@ -9,8 +9,9 @@ header{
 background-color: #1B33AC;
 border:black;
 margin: auto;
-padding: 30px;
-}
+padding: 30px;}
+
+img {border: thin rgb(245, 244, 244) solid;}
 
 nav{ color:#091534;}
 
@@ -25,12 +26,6 @@ color:black;
 font-family: Verdana, Geneva, Tahoma, sans-serif ;
 font-weight: bold;}
 
-dl.answer{color:black;
-  font-family:  sans-serif,verdana; 
-  font-weight: normal; 
-
-}
-
 
 a:link { color:#091534 ; } /* unvisited link */
 a:visited { color:#607AFB ; } /* visited link */
@@ -38,30 +33,28 @@ a:hover { color:#091534; } /* mouse over link */
 a:active { color:rgb(95, 93, 93) ; }  /* selected link */
 
 footer a:link { color:#091534 ; } /* unvisited link */
-footer a:visited { color:#607AFB ; } /* visited link */
-footer a:hover { color:#091534; } /* mouse over link */
-footer a:active { color:rgb(95, 93, 93) ; }  /* selected link */
+footer a:visited { color:#e7e2e2 ; } /* visited link */
+footer a:hover { color:#0f0f0f; } /* mouse over link */
+footer a:active { color:rgb(13, 13, 13) ; }  /* selected link */
 
-p,figcaption {
-color:black;
+section a:link{color:rgb(96, 113, 156);}
+section a:visited{color:rgb(106,116,161);}
+section a:hover{color:#9DA0AF;}
+section a:active{color:rgb(106, 116, 161);}
+
+p figcaption {color:black;
 font-family:  sans-serif,verdana; 
-font-weight: normal;  
-}
+font-weight: normal;}
 
-body{
-background-color: #E5E1E1;}
+body{background-color: #E5E1E1;}
 
 main{background-color: #E5E1E1;}
 
-section {
-background-color:#E5E1E1 ;
-}
+section {background-color:#E5E1E1;}
 
-footer {
-background-color:  #9DA0AF;
-color: bisque;
-}
+footer {background-color:  #9DA0AF;
+color: bisque;}
 
-img {border: thin rgb(245, 244, 244) solid;}
+
 
 
