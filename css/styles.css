@@ -9,11 +9,11 @@ header{
 background-color: #1B33AC;
 border:black;
 margin: auto;
-padding: 30px;}
+padding: 10px;}
 
 img {border: thin rgb(245, 244, 244) solid;}
 
-nav{ color:#091534;}
+nav{ color:black;}
 
 h1.heading{color:#E5E1E1;
 font-family: helvetica;
@@ -28,12 +28,12 @@ font-weight: bold;}
 
 
 a:link { color:#091534 ; } /* unvisited link */
-a:visited { color:#607AFB ; } /* visited link */
+a:visited { color:#070707 ; } /* visited link */
 a:hover { color:#091534; } /* mouse over link */
-a:active { color:rgb(95, 93, 93) ; }  /* selected link */
+a:active { color:rgb(185, 180, 180) ; }  /* selected link */
 
-footer a:link { color:#091534 ; } /* unvisited link */
-footer a:visited { color:#e7e2e2 ; } /* visited link */
+footer a:link { color:#111111 ; } /* unvisited link */
+footer a:visited { color:#0c0c0c ; } /* visited link */
 footer a:hover { color:#0f0f0f; } /* mouse over link */
 footer a:active { color:rgb(13, 13, 13) ; }  /* selected link */
 
@@ -52,8 +52,7 @@ main{background-color: #E5E1E1;}
 
 section {background-color:#E5E1E1;}
 
-footer {background-color:  #9DA0AF;
-color: bisque;}
+footer {background-color:  #9DA0AF;}
 
 
 
