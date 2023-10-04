@@ -9,17 +9,23 @@ header{
 background-color: #1B33AC;
 border:black;
 margin: auto;
-padding: 10px;}
+padding:2px;
+}
 
 img {border: thin rgb(245, 244, 244) solid;}
 
-nav{ color:black;}
+nav{ color:black;
+align-items: right;}
 
 h1.heading{color:#E5E1E1;
 font-family: helvetica;
 font-weight: bolder;
 text-transform: uppercase;
-border:#091534}
+border:#091534;
+text-align: center;
+padding-right: 15px;
+
+}
  
 h2, h3 {
 color:black;
@@ -27,14 +33,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif ;
 font-weight: bold;}
 
 
-a:link { color:#091534 ; } /* unvisited link */
-a:visited { color:#070707 ; } /* visited link */
-a:hover { color:#091534; } /* mouse over link */
-a:active { color:rgb(185, 180, 180) ; }  /* selected link */
+a:link { color:white ; } /* unvisited link */
+a:visited { color:white ; } /* visited link */
+a:hover {color:rgb(147, 157, 199);}/* mouse over link */
+a:active { color:rgb(106,116,161) ; }  /* selected link */
 
-footer a:link { color:#111111 ; } /* unvisited link */
+footer a:link { color:#0d0d0e ; } /* unvisited link */
 footer a:visited { color:#0c0c0c ; } /* visited link */
-footer a:hover { color:#0f0f0f; } /* mouse over link */
+footer a:hover { color: #1B33AC; } /* mouse over link */
 footer a:active { color:rgb(13, 13, 13) ; }  /* selected link */
 
 section a:link{color:rgb(96, 113, 156);}
@@ -52,7 +58,7 @@ main{background-color: #E5E1E1;}
 
 section {background-color:#E5E1E1;}
 
-footer {background-color:  #9DA0AF;}
+footer {background-color:#9DA0AF;}
 
 
 
