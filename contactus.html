@@ -3,56 +3,141 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="css/styles.css" />
+  
 
 </head>
 
 <body>
 
-    <header>
+  <header>
+    <h1 class="heading">Steve Winwood</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contactus.html">Contact Us</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+   
+  </header>
 
-        <nav>
-            <a href="index.html">Home </a> | <a href="faq.html"> Faq </a> | <a href="contactus.html"> Contact Us </a> |
-            <a href="gallery.html"> Gallery </a>
-        </nav>
-        <h1 class="heading">Steve Winwood</h1>
-    </header>
+  <body>
+
     <main>
-        <h2>Contact Us</h2>
-        <form action="">
-            <form name="mail" action="mailto:neilnr_45@gmail.com" method="post">
+      <section>
+        <h2 class="heading">Contact Us</h2>
+        <p>
+          Please contact us we love to hear from you. If you need help with anything or have feedback for us, use this
+          contact form below.
+        </p>
+        <fieldset>
+          <legend>Contact Form </legend>
+          <h4>Contact Info</h4>
+          <form mail="mymail" method="post" action="mailto:neilnr4@gmail.com"></form>
+            <p>
+              <label for=" First Name"> First Name: </label><input type="text"name="First Name"
+                placeholder="First Name">
+            </p>
+            <p>
+              <label for=" Last Name"> Last Name: </label><input type="text"name="Last Name"
+                placeholder="Last Name">
+            </p>
+
+            <p>
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" placeholder="1234567890"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
+            <p>
+              <label for="Select your Issue"> Select Your Issue:</label>
+            </p>
+                <select name="programID">
+                <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Issues</option>
+                <option value="1">Orders</option>
+                <option value="2">Our Website</option>
+                <option value="3">Downloads</option>
+                <option value="4">Shipping</option>
+                <option value="5">Returns</option>
+              </select>
+            
+            <p>
+            Please type out your question or comment on these issues.
+            </p>
+                
+            <textarea id="message" name="message"></textarea>
+            
+            <p>
+             We want to know what songs you like the most on this list.
+            </p>
+            
+            <p>
+            <label title="Dear Mr. Fantasy.">"Dear Mr. Fantasy"<input type="checkbox" name="songs"></label>
+            <p>
+           
+            <p>
+            <label title="Higher love.">"Higher Love"<input type="checkbox" name="songs"></label>
+            </p>
+            
+            <p>
+            <label title="Back in the high life again.">"Back in the high life again"<input type="checkbox" name="songs"></label>
+            </p>
+            
+            <p>
+            <label title="Keep on Running.">"Keep on Running"<input type="checkbox" name="songs"></label>
+            </p>
+
+            <p>
+            <label title="Can't find my way home.">"Can't find my way home"<input type="checkbox" name="songs"></label>
+            </p>
+              
+            
+            <legend>Tell us how we are doing. Click one of these 3 options.</legend>
+
+            <input type="radio" id="Great" name="Great" />
+            <label for="Great">Great</label><br />
+            
+            <input type="radio" id="Good" name="Good" />
+            <label for="Good">Good</label><br />
+            
+            <input type="radio" id="Not Good" name="Not Good"/>
+            <label for="Not Good">Not Good</label>
+            
+           
+            <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="undo">
+            </p>
 
         </form>
-        
-    </main>
+        </fieldset>
 
+      </section>
+    </main>
     <footer>
-        <p> 2023 Steve Winwood Studios,LLC</p>
+      <p> 2023 Steve Winwood Studios,LLC</p>
     </footer>
 
-</body>
+  </body>
 
 </html>
