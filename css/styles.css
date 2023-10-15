@@ -127,10 +127,8 @@ form{
 
 fieldset{text-align:center;
          width: 85%;
-         margin: left 30px; 
-         
-         
-         background-color:#c6c6ca;}
+         background-color:#c6c6ca;
+        }
 
 td {
   text-align: center;
@@ -158,13 +156,12 @@ tbody tr:hover {
 
 th {
   background-color: rgb(84, 136, 250);
-  text-shadow: #8dacc0;
-}
-
-th {
   font: bold;
   color:white;
+  
 }
+
+
 
 tr,
 td {
