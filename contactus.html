@@ -27,7 +27,7 @@
   <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/styles.css" />
-  
+
 
 </head>
 
@@ -41,95 +41,88 @@
       <a href="contactus.html">Contact Us</a>
       <a href="gallery.html">Gallery</a>
     </nav>
-   
+
   </header>
 
   <body>
 
     <main>
-      <section>
-        <h2 class="heading">Contact Us</h2>
-        <p>
-          Please contact us we love to hear from you. If you need help with anything or have feedback for us, use this
-          contact form below.
+      <section class="contactus">
+        <h2>Contact Us</h2>
+        <p class="contactp">
+          Contact us if you need help with anything or have feedback. Use this form below.
         </p>
         <fieldset>
           <legend>Contact Form </legend>
           <h4>Contact Info</h4>
-          <form mail="mymail" method="post" action="mailto:neilnr4@gmail.com"></form>
+          <p>
+          <form mail="myForm" method="post" action="mailto:neilnr5@gmail.com">
+            </p>
             <p>
-              <label for=" First Name"> First Name: </label><input type="text"name="First Name"
+              <label for=" First Name"> First Name: </label><input type="text" name="First Name"
                 placeholder="First Name">
             </p>
             <p>
-              <label for=" Last Name"> Last Name: </label><input type="text"name="Last Name"
-                placeholder="Last Name">
+              <label for=" Last Name"> Last Name: </label><input type="text" name="Last Name" placeholder="Last Name">
             </p>
 
             <p>
               <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" placeholder="1234567890"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> 
+              <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             <p>
               <label for="Select your Issue"> Select Your Issue:</label>
             </p>
-                <select name="programID">
-                <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Issues</option>
-                <option value="1">Orders</option>
-                <option value="2">Our Website</option>
-                <option value="3">Downloads</option>
-                <option value="4">Shipping</option>
-                <option value="5">Returns</option>
-              </select>
-            
+            <select name="programID">
+              <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Issues</option>
+              <option value="1">Orders</option>
+              <option value="2">Our Website</option>
+              <option value="3">Downloads</option>
+              <option value="4">Shipping</option>
+              <option value="5">Returns</option>
+            </select>
+
             <p>
-            Please type out your question or comment on these issues.
+              Please type out your question or comment on these issues.
             </p>
-                
+
             <textarea id="message" name="message"></textarea>
-            
+
             <p>
-             We want to know what songs you like the most on this list.
+              Tell us what songs you like the most for a chance to win 1,000 dollars on our weekly drawings.
+            </p>
+
+            <p>
+              <label title="Dear Mr. Fantasy.">"Dear Mr. Fantasy"<input type="checkbox" name="songs"></label>
+              <label title="Higher love.">"Higher Love"<input type="checkbox" name="songs"></label>
+              <label title="Back in the high life again.">"Back in the high life again"<input type="checkbox"
+                name="songs"></label>
             </p>
             
             <p>
-            <label title="Dear Mr. Fantasy.">"Dear Mr. Fantasy"<input type="checkbox" name="songs"></label>
+              <label title="Back in the high life again.">"Back in the high life again"<input type="checkbox"
+               name="songs"></label>
+               <label title="Keep on Running.">"Keeping on running"<input type="checkbox"
+              name="songs"></label>
+            </p>
+      
+          
+           
+           <legend>Tell us how we are doing. Click one of these 3 options.</legend>
+            
             <p>
+            <label title="Tell us how we are doing.">Great <input type="radio" name="request"></label>
+            
+            <label title="Tell us how we are doing.">Good <input type="radio" name="request"></label>
+            
+            <label title="Tell us how we are doing.">Not good <input type="radio" name="request"></label>
+            </p> 
            
             <p>
-            <label title="Higher love.">"Higher Love"<input type="checkbox" name="songs"></label>
-            </p>
-            
-            <p>
-            <label title="Back in the high life again.">"Back in the high life again"<input type="checkbox" name="songs"></label>
-            </p>
-            
-            <p>
-            <label title="Keep on Running.">"Keep on Running"<input type="checkbox" name="songs"></label>
+              <input type="submit" value="Submit">
+              <input type="reset" value="Undo">
             </p>
 
-            <p>
-            <label title="Can't find my way home.">"Can't find my way home"<input type="checkbox" name="songs"></label>
-            </p>
-              
-            
-            <legend>Tell us how we are doing. Click one of these 3 options.</legend>
-
-            <input type="radio" id="Great" name="Great" />
-            <label for="Great">Great</label><br />
-            
-            <input type="radio" id="Good" name="Good" />
-            <label for="Good">Good</label><br />
-            
-            <input type="radio" id="Not Good" name="Not Good"/>
-            <label for="Not Good">Not Good</label>
-            
-           
-            <p>
-            <input type="submit" value="Submit">
-            <input type="reset" value="undo">
-            </p>
-
-        </form>
+          </form>
         </fieldset>
 
       </section>
