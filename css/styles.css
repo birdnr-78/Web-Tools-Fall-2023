@@ -154,11 +154,6 @@ table caption {
   text-align: center;
 }
 
-.tablesize {
-  border-collapse: collapse;
-  width: 50%;
-  margin: auto;
-}
 
 tbody tr:hover {
   color: white;
@@ -182,13 +177,10 @@ td {
 thead,
 table {
   border: 8px groove #8dacc0;
+  margin:auto;
 }
 
 footer {
   background-color: #9DA0AF;
 }
 
-.santacard {
-  max-width;
-  30vw;
-}
