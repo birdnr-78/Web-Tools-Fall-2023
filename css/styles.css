@@ -5,30 +5,40 @@
    #0929CE
 monochromatic */
 
+
 header {
-  background-color: #1B33AC;
-  border: black;
-  margin: auto;
-  padding: 2px;
+  background-color: hwb(240 13% 9% / 0.931);;
+  border: rgb(6, 6, 6);
+  margin:1px;
+  border-style: solid;
+  border-width:2px;
+  }
+
+header img {
+  position: absolute;
+  top: 0.5vh;
+  bottom:0.2vh;
+  right: 0.2vw;
+  z-index: 5;
+  width: auto;
+  max-width: 15vw;
+  height: auto;
 }
 
-img {
-  border: thin rgb(245, 244, 244) solid;
-}
+footer{color:#0d0d0e;
+       border-width: 2px;}
 
 nav {
-  color: rgb(253, 251, 251);
-
-}
-
-h1.heading {
+  color: rgb(8, 8, 8);
+  }
+nav:hover{color:black}
+.heading {
   color: #E5E1E1;
   font-family: helvetica;
   font-weight: bolder;
   text-transform: uppercase;
-  border: #091534;
   text-align: center;
-  padding-right: 15px;
+  padding: 20px 0;
 
 }
 
@@ -36,11 +46,14 @@ h1.heading {
   text-align: center;
 }
 
+
 h2,
 h3 {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+  text-align:center;
+  
 }
 
 
@@ -65,27 +78,6 @@ a:active {
 
 /* selected link */
 
-footer a:link {
-  color: #0d0d0e;
-}
-
-/* unvisited link */
-footer a:visited {
-  color: #0c0c0c;
-}
-
-/* visited link */
-footer a:hover {
-  color: #1B33AC;
-}
-
-/* mouse over link */
-footer a:active {
-  color: rgb(13, 13, 13);
-}
-
-/* selected link */
-
 section a:link {
   color: rgb(96, 113, 156);
 }
@@ -100,7 +92,7 @@ section a:visited {
 }
 
 section a:hover {
-  color: #9DA0AF;
+  color: #060606;
 }
 
 section a:active {
@@ -119,6 +111,7 @@ p figcaption {
 
 body {
   background-color: #E5E1E1;
+  margin:0.2px;
 }
 
 main {
@@ -126,7 +119,7 @@ main {
 }
 
 section {
-  background-color: #E5E1E1;
+  background-color:rgb(230, 235, 238)
 }
 
 form {
@@ -137,15 +130,13 @@ form {
 fieldset {
   text-align: center;
   width: 85%;
-  background-color: #c6c6ca;
+  background-color: hwb(240 12% 6% / 0.931);
   margin: auto;
 }
 
 td {
   text-align: center;
 }
-
-
 
 table caption {
   font-family: helvetica;
@@ -167,8 +158,6 @@ th {
 
 }
 
-
-
 tr,
 td {
   border-bottom: 5px;
@@ -180,7 +169,13 @@ table {
   margin:auto;
 }
 
-footer {
-  background-color: #9DA0AF;
+
+
+figure{text-align:center;
+padding:25px;
+
+
 }
+
+
 
