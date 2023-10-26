@@ -17,7 +17,7 @@ html {
 
 header img {
   position: absolute;
-  top: 0.5vh;
+  
   right: 0.2vw;
   z-index: 5;
   width: auto;
@@ -35,8 +35,9 @@ section {
   width: 85%;
   max-width: 900px;
   min-width: 500px;
-  margin: 5vw auto;
+  margin: 2vw auto;
   border-width: 3.5px;
+  
 }
 
 
@@ -46,14 +47,17 @@ h3 {
   background-color: #99a1bc;
   border-radius: 7px 7px 0 0;
   text-align: center;
+  margin:1px;
   
 }
 .margin{margin:25px;}
-p,
-ul {
-  margin: 2px;
-  padding: 5px;
+p{margin:45px;
 }
+
+ul {
+  margin-right: 300px;
+  padding:15px;
+ }
 
 figure {
   float: left;

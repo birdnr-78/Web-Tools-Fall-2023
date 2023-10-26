@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
 
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,15 +26,15 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/styles.css">  
   <link rel="stylesheet" href="css/nav-menu.css">
-  
 </head>
 
 <body>
 
   <header>
-    <h1 class="heading"> Steve Winwood</h1>
+    <h1 class="heading2"> Steve Winwood</h1>
      <img src="images/logo.png" alt="site logo">
      <nav class="topnav">
       <a href="index.html">Home</a>
@@ -54,20 +54,21 @@
         <fieldset>
           <legend>Contact Form </legend>
           <h4>Contact Info</h4>
-          <p>
-          <form mail="myForm" method="post" action="mailto:neilnr5@gmail.com">
+          
+          <form class="w3-container" name="myForm" method="post" action="mailto:neilnr5@gmail.com">
+            
+            <p>
+              <label for="FirstName"> First Name: </label>
+              <input id="FirstName" type="text" name="First Name" class="w3-input" placeholder="FirstName">
             </p>
             <p>
-              <label for=" First Name"> First Name: </label><input type="text" name="First Name"
-                placeholder="First Name">
-            </p>
-            <p>
-              <label for=" Last Name"> Last Name: </label><input type="text" name="Last Name" placeholder="Last Name">
+              <label for="LastName">Last Name:</label>
+              <input id="LastName"type="text" name="Last Name" class="w3-input" placeholder="LastName">
             </p>
 
             <p>
               <label for="phone">Phone Number:</label>
-              <input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <input id="phone"type="phone" name="phone" class="w3-input" placeholder="1234567890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             <p>
               <label for="Select your Issue"> Select Your Issue:</label>
             </p>
@@ -80,11 +81,12 @@
               <option value="5">Returns</option>
             </select>
 
-            <p>
-              Please type out your question or comment on these issues.
-            </p>
 
-            <textarea id="message" name="message"></textarea>
+           
+            <p><label for="question">Please type out your question or comment in this box.</label></p>
+            <textarea id="question" name="question"></textarea>
+            
+          
 
             <p>
               Tell us what songs you like the most for a chance to win 1,000 dollars on our weekly drawings.
@@ -126,7 +128,7 @@
 
       </section>
     </main>
-    <footer>
+    <footer class=w3-panel w3-border w3-black>
       <p> 2023 Steve Winwood Studios,LLC</p>
     </footer>
 

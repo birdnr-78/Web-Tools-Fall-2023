@@ -16,8 +16,7 @@ header {
 
 header img {
   position: absolute;
-  top: 0.5vh;
-  bottom:0.2vh;
+  top: 10vh;
   right: 0.2vw;
   z-index: 5;
   width: auto;
@@ -26,26 +25,31 @@ header img {
 }
 
 footer{color:#0d0d0e;
-       border-width: 2px;}
+       border-width: 5px;
+       text-align: center;
+      }
 
-nav {
-  color: rgb(8, 8, 8);
-  }
-nav:hover{color:black}
+
 .heading {
   color: #E5E1E1;
   font-family: helvetica;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  padding: 20px 0;
+  padding-top:27px;
+}
 
+.heading2{color: #E5E1E1;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top:22px;
 }
 
 .centerText {
   text-align: center;
 }
-
 
 h2,
 h3 {
@@ -53,51 +57,14 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   text-align:center;
-  
-}
-
-
-a:link {
-  color: white;
-}
-
-/* unvisited link */
-a:visited {
-  color: white;
-}
-
-/* visited link */
-a:hover {
-  color: rgb(147, 157, 199);
-}
-
-/* mouse over link */
-a:active {
-  color: rgb(106, 116, 161);
-}
-
-/* selected link */
-
-section a:link {
-  color: rgb(96, 113, 156);
-}
+  margin: 48px;
+  }
 
 section.contactus {
-  margin-left: 15%;
+  margin-left: 100%;
   text-align: center;
 }
 
-section a:visited {
-  color: rgb(106, 116, 161);
-}
-
-section a:hover {
-  color: #060606;
-}
-
-section a:active {
-  color: rgb(106, 116, 161);
-}
 
 p.contactp {
   text-align: center;
@@ -107,6 +74,7 @@ p figcaption {
   color: black;
   font-family: sans-serif, verdana;
   font-weight: normal;
+  font-size: large;
 }
 
 body {
@@ -119,19 +87,19 @@ main {
 }
 
 section {
-  background-color:rgb(230, 235, 238)
+  background-color:rgb(240, 237, 237)
 }
 
 form {
-
-  margin-left: 30px;
+   margin-left: 40px;
 }
 
 fieldset {
   text-align: center;
   width: 85%;
-  background-color: hwb(240 12% 6% / 0.931);
+  background-color: hwb(240 73% 20% / 0.931);
   margin: auto;
+  text-align:center;
 }
 
 td {
@@ -140,42 +108,46 @@ td {
 
 table caption {
   font-family: helvetica;
-  font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
+  font-size:large;
+  font-weight:bold;
 }
 
-
 tbody tr:hover {
-  color: white;
-  background-color: #0d0d0e;
+  color: rgb(8, 8, 8);
+  background-color: #b0b0b9;
+  border:black;
 }
 
 th {
   background-color: rgb(84, 136, 250);
   font: bold;
   color: rgb(8, 8, 8);
-
 }
 
-tr,
-td {
-  border-bottom: 5px;
-}
+tr{border-style: solid;
+   border-color:black;}
 
+td:hover{
+          border-color:rgb(16, 15, 15)}
+  
 thead,
 table {
   border: 8px groove #8dacc0;
-  margin:auto;
+  max-width:60%;
+  margin-left:230px;
+  background-color: #dedee7;
+ }
+
+figure {text-align:center;
+padding:10px;
+margin-right:50px;
 }
 
-
-
-figure{text-align:center;
-padding:25px;
-
-
+figure img{margin:20px;
 }
 
-
-
+li{margin-left: 90px;
+  margin-bottom:5px;
+  }
