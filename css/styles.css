@@ -5,7 +5,7 @@
    #0929CE
 monochromatic */
 
-
+label{text-align:left;}
 header {
   background-color: hwb(240 13% 9% / 0.931);;
   border: rgb(6, 6, 6);
@@ -87,11 +87,16 @@ main {
 }
 
 section {
-  background-color:rgb(240, 237, 237)
+  background-color:rgb(240, 237, 237);
+  margin:40px;
+  
 }
 
+
+
 form {
-   margin-left: 40px;
+   margin-left: 100px;
+   text-align:left;
 }
 
 fieldset {
@@ -100,6 +105,7 @@ fieldset {
   background-color: hwb(240 73% 20% / 0.931);
   margin: auto;
   text-align:center;
+
 }
 
 td {
@@ -151,3 +157,5 @@ figure img{margin:20px;
 li{margin-left: 90px;
   margin-bottom:5px;
   }
+textarea{width:400px;
+         height:100px;}
