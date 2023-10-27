@@ -16,7 +16,7 @@ header {
 
 header img {
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   right: 0.2vw;
   z-index: 5;
   width: auto;
@@ -37,6 +37,7 @@ footer{color:#0d0d0e;
   text-transform: uppercase;
   text-align: center;
   padding-top:27px;
+ 
 }
 
 .heading2{color: #E5E1E1;
@@ -45,6 +46,7 @@ footer{color:#0d0d0e;
   text-transform: uppercase;
   text-align: center;
   padding-top:22px;
+ 
 }
 
 .centerText {
@@ -148,14 +150,16 @@ table {
 
 figure {text-align:center;
 padding:10px;
-margin-right:50px;
+margin-left:275px;
+width:50%;
 }
 
 figure img{margin:20px;
 }
 
-li{margin-left: 90px;
-  margin-bottom:5px;
+li{margin-left: 130px;
+  margin-bottom:7px;
   }
+
 textarea{width:400px;
          height:100px;}
