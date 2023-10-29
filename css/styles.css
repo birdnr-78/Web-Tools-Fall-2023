@@ -14,9 +14,11 @@ header {
   border-width:2px;
   }
 
+  
+
 header img {
   position: absolute;
-  top: 5vh;
+  top: 3vh;
   right: 0.2vw;
   z-index: 5;
   width: auto;
@@ -53,13 +55,13 @@ footer{color:#0d0d0e;
   text-align: center;
 }
 
+
 h2,
 h3 {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   text-align:center;
-  margin: 48px;
   }
 
 section.contactus {
@@ -90,7 +92,6 @@ main {
 
 section {
   background-color:rgb(240, 237, 237);
-  margin:40px;
   
 }
 
@@ -150,16 +151,18 @@ table {
 
 figure {text-align:center;
 padding:10px;
-margin-left:275px;
+margin-left:350px;
 width:50%;
 }
 
 figure img{margin:20px;
 }
 
-li{margin-left: 130px;
+li{margin-left: 250px;
   margin-bottom:7px;
   }
 
 textarea{width:400px;
          height:100px;}
+
+div{background-color:#E5E1E1;}

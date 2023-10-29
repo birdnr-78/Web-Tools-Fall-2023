@@ -38,6 +38,7 @@ section {
   margin: 2vw auto;
   border-width: 3.5px;
   
+  
 }
 
 
@@ -51,13 +52,13 @@ h3 {
   
 }
 .margin{margin:25px;}
-p{margin:45px;
+p{margin:15px;
 }
 
 ul {
   margin-right: 300px;
-  padding:15px;
-  width:45%;
+  padding:5px;
+  width:50%;
  }
 
 figure {
@@ -88,4 +89,6 @@ figcaption {
 
 li {
   list-style: none;
+  margin-left:200px;
+  margin-top:0px;
 }
