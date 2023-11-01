@@ -4,8 +4,7 @@
 .topnav {
   
   overflow: hidden;
- 
-}
+ }
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -22,7 +21,6 @@
   background-color:rgba(196, 206, 212, 0.857);
   font-size: larger;
   font-family:helvetica,Aerial;
-  
 }
 
 /* Add a color to the active/current link */
@@ -38,7 +36,6 @@
   
   border-color:rgb(219, 231, 242);
   border:solid;
-
 }
 
 

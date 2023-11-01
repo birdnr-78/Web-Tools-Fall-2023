@@ -5,16 +5,18 @@
    #0929CE
 monochromatic */
 
-label{text-align:left;}
-header {
-  background-color: hwb(240 13% 9% / 0.931);;
-  border: rgb(6, 6, 6);
-  margin:1px;
-  border-style: solid;
-  border-width:2px;
-  }
+label {
+  text-align: left;
+}
 
-  
+header {
+  background-color: hwb(240 13% 9% / 0.931);
+  ;
+  border: rgb(6, 6, 6);
+  margin: 1px;
+  border-style: solid;
+  border-width: 2px;
+}
 
 header img {
   position: absolute;
@@ -26,10 +28,11 @@ header img {
   height: auto;
 }
 
-footer{color:#0d0d0e;
-       border-width: 5px;
-       text-align: center;
-      }
+footer {
+  color: #0d0d0e;
+  border-width: 5px;
+  text-align: center;
+}
 
 
 .heading {
@@ -38,17 +41,18 @@ footer{color:#0d0d0e;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  padding-top:27px;
- 
+  padding-top: 27px;
+
 }
 
-.heading2{color: #E5E1E1;
+.heading2 {
+  color: #E5E1E1;
   font-family: helvetica;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  padding-top:22px;
- 
+  padding-top: 22px;
+
 }
 
 .centerText {
@@ -61,8 +65,8 @@ h3 {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  text-align:center;
-  }
+  text-align: center;
+}
 
 section.contactus {
   margin-left: 100%;
@@ -83,7 +87,7 @@ p figcaption {
 
 body {
   background-color: #E5E1E1;
-  margin:0.2px;
+  margin: 0.2px;
 }
 
 main {
@@ -91,15 +95,12 @@ main {
 }
 
 section {
-  background-color:rgb(240, 237, 237);
-  
+  background-color: rgb(240, 237, 237);
 }
 
-
-
 form {
-   margin-left: 100px;
-   text-align:left;
+  margin-left: 100px;
+  text-align: left;
 }
 
 fieldset {
@@ -107,8 +108,7 @@ fieldset {
   width: 85%;
   background-color: hwb(240 73% 20% / 0.931);
   margin: auto;
-  text-align:center;
-
+  text-align: center;
 }
 
 td {
@@ -116,17 +116,17 @@ td {
 }
 
 table caption {
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-size:large;
-  font-weight:bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 tbody tr:hover {
   color: rgb(8, 8, 8);
   background-color: #b0b0b9;
-  border:black;
+  border: black;
 }
 
 th {
@@ -135,34 +135,44 @@ th {
   color: rgb(8, 8, 8);
 }
 
-tr{border-style: solid;
-   border-color:black;}
+tr {
+  border-style: solid;
+  border-color: black;
+}
 
-td:hover{
-          border-color:rgb(16, 15, 15)}
-  
+td:hover {
+  border-color: rgb(16, 15, 15)
+}
+
 thead,
 table {
   border: 8px groove #8dacc0;
-  max-width:60%;
-  margin-left:230px;
+  max-width: 60%;
+  margin-left: 230px;
   background-color: #dedee7;
- }
-
-figure {text-align:center;
-padding:10px;
-margin-left:350px;
-width:50%;
 }
 
-figure img{margin:20px;
+figure {
+  text-align: center;
+  padding: 10px;
+  margin-left: 350px;
+  width: 50%;
 }
 
-li{margin-left: 250px;
-  margin-bottom:7px;
-  }
+figure img {
+  margin: 20px;
+}
 
-textarea{width:400px;
-         height:100px;}
+li {
+  margin-left: 250px;
+  margin-bottom: 7px;
+}
 
-div{background-color:#E5E1E1;}
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+div {
+  background-color: #E5E1E1;
+}
