@@ -11,7 +11,6 @@ label {
 
 header {
   background-color: hwb(240 13% 9% / 0.931);
-  ;
   border: rgb(6, 6, 6);
   margin: 1px;
   border-style: solid;
@@ -20,7 +19,7 @@ header {
 
 header img {
   position: absolute;
-  top: 3vh;
+  top: 8vh;
   right: 0.2vw;
   z-index: 5;
   width: auto;
