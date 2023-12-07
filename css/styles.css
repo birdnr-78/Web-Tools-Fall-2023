@@ -18,11 +18,9 @@ header {
   text-transform: uppercase;
   text-align: center;
   padding-top: 27px;
-  background-color:dodgerblue
+  background-color:rgb(27, 27, 172);
   
-    
-  
-}
+  }
 
 
 header img {
@@ -43,7 +41,7 @@ footer {
 
 
 .heading {
-  color:#adc0fce7;
+  color:#bccbfae7;
   font-family: helvetica;
   font-weight: bolder;
   text-transform: uppercase;
