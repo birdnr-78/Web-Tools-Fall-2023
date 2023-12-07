@@ -10,12 +10,18 @@ label {
 }
 
 header {
-  background-color: hwb(240 13% 9% / 0.931);
-  border: rgb(6, 6, 6);
-  margin: 1px;
-  border-style: solid;
-  border-width: 2px;
-}
+  
+  
+  color: #aba7a7;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 27px;
+  background-color:rgb(27, 27, 172);
+  
+  }
+
 
 header img {
   position: absolute;
@@ -35,22 +41,22 @@ footer {
 
 
 .heading {
-  color: #E5E1E1;
+  color:#bccbfae7;
   font-family: helvetica;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 27px;
+  
 
 }
 
 .heading2 {
-  color: #E5E1E1;
+  color: #adc0fce7;
   font-family: helvetica;
   font-weight: bolder;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 22px;
+  
 
 }
 

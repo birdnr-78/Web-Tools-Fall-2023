@@ -1,0 +1,185 @@
+/* #E5E1E1
+   #1B33AC
+   #9DA0AF
+   #607AFB
+   #0929CE
+monochromatic */
+
+label {
+  text-align: left;
+}
+
+header {
+  
+  
+  color: #aba7a7;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 27px;
+  background-color:dodgerblue
+  
+    
+  
+}
+
+
+header img {
+  position: absolute;
+  top: 8vh;
+  right: 0.2vw;
+  z-index: 5;
+  width: auto;
+  max-width: 15vw;
+  height: auto;
+}
+
+footer {
+  color: #0d0d0e;
+  border-width: 5px;
+  text-align: center;
+}
+
+
+.heading {
+  color:#adc0fce7;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  
+
+}
+
+.heading2 {
+  color: #adc0fce7;
+  font-family: helvetica;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  
+
+}
+
+.centerText {
+  text-align: center;
+}
+
+
+h2,
+h3 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+section.contactus {
+  margin-left: 100%;
+  text-align: center;
+}
+
+
+p.contactp {
+  text-align: center;
+}
+
+p figcaption {
+  color: black;
+  font-family: sans-serif, verdana;
+  font-weight: normal;
+  font-size: large;
+}
+
+body {
+  background-color: #E5E1E1;
+  margin: 0.2px;
+}
+
+main {
+  background-color: #E5E1E1;
+}
+
+section {
+  background-color: rgb(240, 237, 237);
+}
+
+form {
+  margin-left: 100px;
+  text-align: left;
+}
+
+fieldset {
+  text-align: center;
+  width: 85%;
+  background-color: hwb(240 73% 20% / 0.931);
+  margin: auto;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+table caption {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  color: rgb(8, 8, 8);
+  background-color: #b0b0b9;
+  border: black;
+}
+
+th {
+  background-color: rgb(84, 136, 250);
+  font: bold;
+  color: rgb(8, 8, 8);
+}
+
+tr {
+  border-style: solid;
+  border-color: black;
+}
+
+td:hover {
+  border-color: rgb(16, 15, 15)
+}
+
+thead,
+table {
+  border: 8px groove #8dacc0;
+  max-width: 60%;
+  margin-left: 230px;
+  background-color: #dedee7;
+}
+
+figure {
+  text-align: center;
+  padding: 10px;
+  margin-left: 350px;
+  width: 50%;
+}
+
+figure img {
+  margin: 20px;
+}
+
+li {
+  margin-left: 250px;
+  margin-bottom: 7px;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
+div {
+  background-color: #E5E1E1;
+}
